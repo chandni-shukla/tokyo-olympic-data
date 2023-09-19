@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <title>Stop Watch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card text-center">
+                    <div class="card-header bg-secondary text-white">
+                        <p class="h3">Stop Watch</p>
+
+                    </div>
+                    <div class="card-body">
+                        <p class="display-2">
+                            <span id="minutes"> 00 </span> :
+                            <span id="seconds"> 00 </span> :
+                            <span id="m-seconds"> 00 </span>
+                        </p>
+                        <button class="btn btn-success" id="start-btn">Start</button>
+                        <button class="btn btn-danger" id="stop-btn">Stop</button>
+                        <button class="btn btn-warning" id="reset-btn">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
